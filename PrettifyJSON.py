@@ -17,8 +17,8 @@ def printUsage( prog ):
 	print ('')
 	print ('Here,')
 	print ('')
-	print ('  - n = number of spaces for indentation (default: %s)' % (parameters['indent']))
-	print ('  - key sorting is false if x = (%s), else true (default: %s)' % ('|'.join(false_vals), parameters['sort']))
+	print ('  - n = number of spaces for indentation (optional, default: %s)' % (parameters['indent']))
+	print ('  - key sorting is false if x = (%s), else true (optional, default: %s)' % ('|'.join(false_vals), parameters['sort']))
 	print ('')
 	sys.exit( -1 )
 
